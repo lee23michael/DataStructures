@@ -7,8 +7,11 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // HashMap doesn't sort in order
         Map<Integer, String> hashMap = new HashMap<Integer, String>();
+        // LinkedHashMap sorts in an order as items added
         Map<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+        // TreeMap sorts in natural order
         Map<Integer, String> treeMap = new TreeMap<Integer, String>();
 
         testMap(hashMap);
