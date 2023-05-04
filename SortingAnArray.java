@@ -1,3 +1,5 @@
+package src;
+
 public class SortingAnArray
 {
     public static void main(String[] args)

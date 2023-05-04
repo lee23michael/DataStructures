@@ -1,3 +1,5 @@
+package src;
+
 public class ValiedPalindrome
 {
     public static void main(String[] args)
